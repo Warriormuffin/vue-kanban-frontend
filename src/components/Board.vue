@@ -29,9 +29,10 @@
       <h1 class="board-name">{{board.name}}</h1>
       <!--Jason please fix this so that both cards  show up side by side, instead of ontop of each other! I can't figure it out-->
       <div class="row">
-      <div v-for="list in lists" class="col">
+        <div v-for="list in lists" class="col">
+          <br>
           <list :listData="list"></list>
-      </div>
+        </div>
       </div>
     </div>
   </div>
@@ -51,7 +52,6 @@
       this.$store.dispatch('getBoard', this.$route.params.id)
       this.$store.dispatch('getLists', this.$route.params.id)
     },
-
     computed: {
       board() {
         return this.$store.state.activeBoard
@@ -73,7 +73,6 @@
       List
     }
   }
-
 </script>
 
 <style scoped>
