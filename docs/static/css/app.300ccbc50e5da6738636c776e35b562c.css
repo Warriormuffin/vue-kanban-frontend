@@ -1,0 +1,133 @@
+
+body{
+  background-color: #0079bf;
+  color: #fff;
+  padding-top: 40px;
+}
+p,h1,h2,h3,h4,h5,h6,span,ul,li,div,a,a:hover{
+  color: #fff;
+}
+
+
+.custom-error[data-v-49c58c80]{
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  padding: 10px;
+  background: red;
+  color: white;
+}
+
+.user-name[data-v-0c6e3af6] {
+  text-align: center;
+}
+.modal-title[data-v-0c6e3af6] {
+  color: black;
+}
+.modal-text[data-v-0c6e3af6] {
+  color: black;
+}
+.name[data-v-0c6e3af6] {
+  font-size: 20px;
+  font-weight: 700;
+}
+.fa-trash[data-v-0c6e3af6] {
+  float: right;
+  font-size: 24px;
+}
+.background[data-v-0c6e3af6] {
+  height: 100px;
+  background-image: url(https://static.pexels.com/photos/413106/pexels-photo-413106.jpeg);
+  background-size: cover;
+  background-position: center;
+}
+
+.board-name[data-v-5337eb44] {
+  text-align: center;
+}
+
+.task-title[data-v-3aa38f94] {
+  color: black;
+}
+p[data-v-3aa38f94] {
+  color: #333;
+  font-weight: 700;
+  margin-bottom: 0;
+}
+i[data-v-3aa38f94] {
+  color: red;
+  cursor: pointer;
+}
+.trashcan[data-v-3aa38f94] {
+  color: black;
+  font-size: 20px;
+  float: right;
+  /*Move this trashcan to the right hand side of the card header please*/
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+i[data-v-4bce83a6] {
+  color: white;
+}
+.logo[data-v-4bce83a6] {
+  color: white;
+  font-size: 40px;
+}
+h2[data-v-4bce83a6] {
+  margin-top: 100px;
+  color: white;
+  font-weight: 900;
+  text-align: left;
+}
+h5[data-v-4bce83a6] {
+  margin-top: 20px;
+  color: white;
+  text-align: left;
+}
+p[data-v-4bce83a6] {
+  text-align: left;
+  color: white;
+}
+button[data-v-4bce83a6] {
+  margin-left: 0;
+  cursor: pointer;
+}
+img[data-v-4bce83a6] {
+  margin-top: -70px;
+}
+
+.form-group[data-v-60b1dd3e] {
+  width: 50%;
+}
+
+.input-group[data-v-fd9f004a] {
+  width: 50%;
+}
+
+/*# sourceMappingURL=app.300ccbc50e5da6738636c776e35b562c.css.map*/
