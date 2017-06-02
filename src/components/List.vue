@@ -27,7 +27,7 @@
 
     <div class="card text-center">
       <div class="card-header">
-        {{listData.name}} <span class="trashcan" @click="removeList(listData)"><i class="fa fa-trash" aria-hidden="true"></i></span>
+        <span class="text-left">{{listData.name}}</span> <span class="trashcan" @click="removeList(listData)"><i class="fa fa-trash" aria-hidden="true"></i></span>
       </div>
       <div class="card-block">
         <div v-for="task in tasks">
@@ -113,6 +113,11 @@
     font-size: 20px;
     float: right;
     /*Move this trashcan to the right hand side of the card header please*/
+  }
+
+  .text-left{
+    float: left;
+    color: black;
   }
 </style>
 

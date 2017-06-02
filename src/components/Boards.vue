@@ -38,7 +38,7 @@
             <div class="container">
               <br>
               <router-link :to="'/boards/'+board._id">
-                <span class="name">{{board.name.toUpperCase()}}</span>
+                <span class="name">{{board.name}}</span>
               </router-link> <span @click="removeBoard(board)"><i class="fa fa-trash" aria-hidden="true"></i></span>
             </div>
           </div>
@@ -73,7 +73,7 @@
       createBoard() {
         debugger
         this.$store.dispatch('createBoard', {
-          name: this.boardName,
+          name: this.boardName.toUpperCase(),
           description: this.boardDescription
         })
       },
