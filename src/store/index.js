@@ -52,12 +52,19 @@ export default new Vuex.Store({
 
     setAuth(state, user) {
       state.user = user || {}
-      router.push('/dashboard')
+      router.push('dashboard')
     },
     setRegister(state, user) {
       state.user = user
-      router.push('/dashboard')
+      debugger
+      router.push('dashboard')
     },
+    setLogin(state, user){
+      state.user = user
+      debugger
+      router.push('dashboard')
+    },
+
     setError(state) {
       state.error = {}
     }
@@ -137,9 +144,9 @@ export default new Vuex.Store({
     login({ commit, dispatch }, user) {
       auth.post('login', user)
         .then(res => {
+          debugger
           console.log(res)
-          state.user = res.data.data
-          router.push('/dashboard')
+          commit('setLogin', res.data.data)
         })
         .catch(handleError)
     },

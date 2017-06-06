@@ -36,7 +36,11 @@
     computed: {},
     methods: {
       login() {
-        this.$root.$data.store.actions.login({ email: this.email, password: this.password })
+        let user = {
+          email: this.email,
+          password: this.password
+        }
+        this.$store.dispatch('login', user)
       }
     },
     components: {}
